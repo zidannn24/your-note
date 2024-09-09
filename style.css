@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+section.hero{
+    background-color: #9763F6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+section.hero h1{
+    color: #fff;
+    font-size: 5rem;
+    text-align: center;
+}
+
+section.hero p{
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+section.hero .card, .edit-card{
+    background-color: #fff;
+    /* max-width: 500px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    /* padding: 1rem 5rem; */
+    padding: 1rem;
+    border-radius: 14px;
+}
+
+section.hero .card textarea, .edit-card textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #9763F6;
+}
+
+section.hero .card input, .edit-card input{
+    padding: 1rem 1.5rem;
+    border: 1px solid #9763F6;
+}
+
+section.hero .card button , .edit-card button{
+    padding: 0.5rem 1rem;
+    background-color: #9763F6;
+    color: #fff;
+    border: none;
+    font-size: 1.3rem;
+}
+
+section.hero a{
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+section.all-notes{
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+section.all-notes .notes-container{
+    border: 1px solid #9763F6;
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 1rem;
+    gap: 1rem;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+section.all-notes .notes-container h1.empty{
+    font-size: 2rem;
+}
+
+section.all-notes .notes-container .note-card{
+    border: 1px solid #9763F6;
+    width: 400px;
+    padding: 1rem;
+}
+
+section.all-notes .notes-container .note-card h1{
+    font-size: 3rem;
+    color: #9763F6;
+    border-bottom: 1px solid #9763F6;
+}
+
+section.all-notes .notes-container .note-card p.content{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+section.all-notes .notes-container .note-card p.date{
+    color: rgb(92, 92, 92);
+    padding-bottom: 1rem;
+}
+
+section.all-notes .notes-container .note-card .edit-btn,
+section.all-notes .notes-container .note-card .delete-btn{
+    background-color: rgb(245, 245, 0);
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #000;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+section.all-notes .notes-container .note-card .delete-btn{
+    background-color: red;
+}
+
+.edit-card-preview{
+    display: none;
+}
+
+.edit-card-preview.active{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: auto; */
+    /* top: 100%; */
+}
