@@ -18,7 +18,6 @@ Your note adalah aplikasi untuk membuat catatan sederhana yang memungkinkan peng
 ## Screenshot
 ### Halaman utama untuk menambahkan catatan
 <img src="https://github.com/user-attachments/assets/ee661cb0-16c5-40b7-bac0-3166c8f438d1" alt="Example Image" width="300">
-<!-- ![Halamn utama untuk menambahkan catatan](https://github.com/user-attachments/assets/ee661cb0-16c5-40b7-bac0-3166c8f438d1) -->
 ### Halaman untuk melihat semua catatan yang telah dibuat
 <img src="https://github.com/user-attachments/assets/f994e1e3-d6d3-46c9-be76-3d8f5c767cfc" alt="Example Image" width="300">
 ### Pop up untuk edit catatan
