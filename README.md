@@ -1,4 +1,4 @@
-# Your Note Application
+![127 0 0 1_5500_your-note_index html(iPhone 14 Pro Max)](https://github.com/user-attachments/assets/136042ca-7793-4048-8001-1e9292f26a6a)# Your Note Application
 
 ## Deskripsi
 Your note adalah aplikasi untuk membuat catatan sederhana yang memungkinkan pengguna untuk menambahkan catatan baru, mengedit catatan, dan menghapus catatan.
@@ -14,3 +14,11 @@ Your note adalah aplikasi untuk membuat catatan sederhana yang memungkinkan peng
 - CSS
 - JAVASCRIPT
 - JSON SERVER
+
+## Screenshot
+### Halaman utama untuk menambahkan catatan
+![Halamn utama untuk menambahkan catatan](https://github.com/user-attachments/assets/ee661cb0-16c5-40b7-bac0-3166c8f438d1)
+### Halaman untuk melihat semua catatan yang telah dibuat
+![Halaman untuk melihat semua catatan yang telah dibuat](https://github.com/user-attachments/assets/f994e1e3-d6d3-46c9-be76-3d8f5c767cfc)
+### Pop up untuk edit catatan
+![Pop up untuk edit catatan](https://github.com/user-attachments/assets/97049304-9998-47a0-b0bd-2184feb873d2)
