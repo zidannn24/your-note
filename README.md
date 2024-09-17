@@ -13,7 +13,6 @@ Your note adalah aplikasi untuk membuat catatan sederhana yang memungkinkan peng
 - HTML
 - CSS
 - JAVASCRIPT
-- JSON SERVER
 
 ## Screenshot
 ### Halaman utama untuk menambahkan catatan
